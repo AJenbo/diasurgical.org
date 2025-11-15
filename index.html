@@ -1,33 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diasurgical</title>
 
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4298073181544861"
           crossorigin="anonymous"></script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+    body {
+      background-color: #000000;
+      color: #dddddd;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1em;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: #ff6666;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #dd0000;
+    }
+
+    header {
+      padding: 40px 0 20px 0;
+    }
+
+    header img.logo {
+      width: 150px;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .game-icon {
+      width: 128px;
+      height: 128px;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+    h1 {
+      color: #ffffff;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 0.5em auto 1em auto;
+    }
+
+    .adsense-container {
+      margin: 40px auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media (max-width: 600px) {
+      header img.logo {
+        width: 120px;
+      }
+      .game-icon {
+        width: 96px;
+        height: 96px;
+      }
+      p {
+        padding: 0 16px;
+      }
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 16px;">
+<body>
 
-  <h1>Diasurgical</h1>
-  <p>We are the developers behind <strong>DevilutionX</strong>, an open-source restoration and enhancement of Diablo.</p>
-  <p>
-    Learn more at: 
-    <a href="https://devilutionx.com/" target="_blank" rel="noopener">devilutionx.com</a>
-  </p>
+  <header>
+    <img class="logo" src="https://avatars.githubusercontent.com/u/40645014?s=400&u=f7c2a4973530f51eb27248fd1ae038465a7c098f&v=4"
+         alt="Diasurgical Logo">
+  </header>
 
-  <!-- Ad unit -->
-  <ins class="adsbygoogle"
-       style="display:block; margin-top:40px;"
-       data-ad-client="ca-pub-4298073181544861"
-       data-ad-slot="2689976245"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  <main>
+    <h1>Diasurgical</h1>
+
+    <p>We are the developers behind <strong>DevilutionX</strong>, an open-source restoration and enhancement of Diablo.</p>
+
+    <a href="https://devilutionx.com/" target="_blank" rel="noopener">
+      <img class="game-icon" src="https://dl.flathub.org/media/org/diasurgical/DevilutionX/8b163b6e2a59c7876b9f4ef90d4244f1/icons/128x128/org.diasurgical.DevilutionX.png"
+           alt="DevilutionX Icon">
+    </a>
+
+    <p>
+      Learn more at:
+      <a href="https://devilutionx.com/" target="_blank" rel="noopener">devilutionx.com</a>
+    </p>
+
+    <div class="adsense-container">
+      <ins class="adsbygoogle"
+           style="display:block;"
+           data-ad-client="ca-pub-4298073181544861"
+           data-ad-slot="2689976245"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </main>
 
 </body>
 </html>
